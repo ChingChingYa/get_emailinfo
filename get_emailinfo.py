@@ -114,8 +114,9 @@ if __name__ == '__main__':
     day = datetime.date.today()
     str_day = str(day).replace('-', '')
     pop3_server = 'casarray.systex.tw'
-    email = '1900782@systex.com.tw'
-    password = 'a5a1a1a3a2'
+    # 這邊輸入個人員工代號
+    email = 'xxxxxxx@systex.com.tw'
+    password = ''
     keysubject = input('請輸入指定特定主旨: ')
     keyword = input('請輸入信件內容關鍵字: ')
 
